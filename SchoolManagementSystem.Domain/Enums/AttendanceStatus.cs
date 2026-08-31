@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace SchoolManagementSystem.Domain.Enums
+{
+    public enum AttendanceStatus
+    {
+        Present = 1,
+        Absent = 2,
+        Leave = 3,
+        HalfDay = 4
+    }
+}
